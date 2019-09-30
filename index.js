@@ -3,9 +3,10 @@ import {
   AppState,
   DeviceEventEmitter,
   Keyboard,
-  NetInfo,
   View,
-} from 'react-native'
+} from 'react-native
+
+import NetInfo from "@react-native-community/netinfo";
 
 export default class DeviceMonitor extends Component {
 
